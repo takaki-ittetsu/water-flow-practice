@@ -79,7 +79,7 @@
 
 -	投稿したい記事：未選択 NG
 -	SNS：１件以上選択必須
--	投稿文：1〜1,000 文字（全 SNS 共通上限）
+-	投稿文：0〜200 文字（全 SNS 共通上限）
 -	チェックボックス ON でないと送信不可
 -	画像添付 UI は今回未実装（Figma に無し）
 
@@ -157,7 +157,7 @@
 **Request**
 
 - article_ids：id[] // ids of the target article to upload to a multitude of sns channels
-- channels: <‘x’ | ‘insta’ | ‘fb’ | ‘threads’ | ‘line’ | ‘mail’>[] // e.g. [‘insta’, ‘mail’]
+- channels: '<‘x’ | ‘insta’ | ‘fb’ | ‘threads’ | ‘line’ | ‘mail’>[] // e.g. [‘insta’, ‘mail’]'
 - description：string // 投稿文
 
 **Response**
